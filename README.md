@@ -1,14 +1,17 @@
-# michaelcereda.com
-Source code of my website (michaelcereda.com)
+# Trey Zhong's personal Website
 
-It has been built in __React__, __HTML__, __CSS__.
+This is the code of my personal website. The website is modified from michaelcereda.com.
 
-Instead of creating a simple Wordpress website i decided to develop an Isomorphic/Universal React based website.  
+# Run: 
 
-I wrote some posts on my blog about the making of this website, if you're curious about it [check here](https://medium.com/@michaelcereda/creating-an-isomorphic-universal-website-with-react-part-1-a905350acba8#.rc2xxzjg5)
+make sure you have gatsby installed: 
+```
+npm install
+npm run dev
+```
+Then the app will be available at http://localhost:8000/
 
-Or if you want to see it in action: http://michaelcereda.com
-
-#License
-Everything except "content files" (Images, md/text files containing  informations, etc) can be used for learning purposes.
-If you have any question just contact me :)
+# Todo 
+- Need to change my personal description
+- Need to change the project description
+- Need to change the medium content
