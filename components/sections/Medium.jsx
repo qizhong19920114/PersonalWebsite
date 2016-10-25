@@ -1,7 +1,7 @@
 import React from 'react';
 import {Section} from '../Section.jsx';
 import {SideBlock} from '../SideBlock.jsx';
-
+import mediumPosts from '../../data/mediumPosts'
 var _ = require('lodash');
 import 'whatwg-fetch';
 
@@ -120,21 +120,27 @@ export class Medium extends React.Component{
     }
 
   }
-
+  //this is the part where all the posts come from
+  //I guess I need to do this part manually...
   componentDidMount(){
-    fetch('https://michaelcereda.com/scrapers/medium.php')
-    .then((res)=>{
-      return res.json();
-    }).
-    then((json_res)=>{
-      this.setState(json_res);
-    })
-    .catch(function(ex) {
-    console.log('parsing failed', ex)
-  });
+    // fetch('https://michaelcereda.com/scrapers/medium.php')
+    // .then((res)=>{
+    //   return res.json();
+    // }).
+    // then((json_res)=>{
+      //console.log("json_res: ", json_res)
+      console.log("before set state: ", this.state)
+      console.log("mediumPosts: ", mediumPosts)
+      this.setState(mediumPosts);
+      console.log("after set state: ", this.state)
+    // })
+    // .catch(function(ex) {
+    // console.log('parsing failed', ex)
+  //});
   }
   render(){
     let stories = this.state.posts.map((post,i)=>{
+      //console.log("state at render: ", this.state)
       return <Story {...post} me={this.state.me} key={i}/>
     });
     let storiesContainer={};

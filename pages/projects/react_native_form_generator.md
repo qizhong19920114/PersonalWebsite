@@ -1,8 +1,8 @@
 ---
-title: react-native-form-generator
-tagline: Easy and Amazing forms for React Native
+title: react-native-iOS-GitHub-NoteTaker
+tagline: React Native iOS GitHub NoteTaker
 type: Opensource
-url: https://github.com/MichaelCereda/react-native-form-generator
+url: https://github.com/qizhong19920114/React_Redux_Study/tree/master/gitNoteTaker_iOS
 platform: Mobile
 status: released
 technologies:

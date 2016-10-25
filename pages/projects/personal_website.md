@@ -1,8 +1,8 @@
 ---
-title: MichaelCereda.com
+title: TreyZhong.com
 tagline: Isomorphic, Static, React Website
 type: Opensource
-url: https://github.com/MichaelCereda/michaelcereda.com
+url: https://github.com/qizhong19920114/PersonalWebsite
 platform: Web
 status: released
 technologies:
