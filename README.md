@@ -15,3 +15,4 @@ Then the app will be available at http://localhost:8000/
 - Need to change my personal description
 - Need to change the project description
 - Need to change the medium content
+- Update website to heroku.
